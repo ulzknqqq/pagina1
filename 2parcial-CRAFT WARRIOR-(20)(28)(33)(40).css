@@ -1,0 +1,16 @@
+ body {    /* se abre el cuerpo del programa*/
+    font-family:cursive;/*se indica el tipo de letra del programa*/
+    text-align: center;/*se alinea el texto del programa al centro*/
+    background-image: url(https://static.planetminecraft.com/files/resource_media/screenshot/1602/2016-01-12_2035319775040_lrg.jpg); /* se agrega la imagen del cuerpo del fondo pormedio del url*/  
+    background-repeat:no-repeat;/*se indica que no se repita la imagen en el programa*/
+    background-attachment: fixed;/*especifica si el contenido de la imagen se desplazara o se mantendra fijo*/
+    background-size: cover;/*se ajusta al tamaño de la pagina*/
+}
+h1 {/*es el encabezado de la pagina*/
+    color:#ffffff;/*es el color del titulo*/
+    text-align:center;/*es la alineacion del texto*/
+  }
+
+#board {/*es el canvas*/
+    background-color:rgb(0, 0, 0)/*es el color que se le asigna a el canvass*/
+}
